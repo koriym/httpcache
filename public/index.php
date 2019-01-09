@@ -1,5 +1,5 @@
 <?php
-header('Cache-Control: max-age=30');
+header('Cache-Control: max-age=1');
 header('Etag: 1');
 sleep(1);
-echo 'クリスマスのレシピ';
+echo  microtime(true);

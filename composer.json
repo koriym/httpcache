@@ -2,7 +2,9 @@
     "name": "koriym/httpcache",
     "require": {
         "guzzlehttp/guzzle": "^6.3",
-        "kevinrob/guzzle-cache-middleware": "^3.2"
+        "kevinrob/guzzle-cache-middleware": "^3.2",
+        "league/flysystem": "^1.0",
+        "doctrine/cache": "^1.8"
     },
     "license": "MIT",
     "authors": [
